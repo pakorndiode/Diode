@@ -1,0 +1,29 @@
+-4.2
+SELECT Id,firstName,lastName FROM student WHERE Id BETWEEN  582115004 AND 582115023;
+
+-4.3
+SELECT Id,firstName,lastName FROM student WHERE age > 20 AND height BETWEEN  150 AND 170;
+
+-5.3
+SELECT Id,firstName,lastName FROM student WHERE firstName LIKE 'L%' OR firstName LIKE 'l%';
+
+-5.4
+SELECT Id,firstName,lastName FROM student WHERE lastName LIKE '%N' OR lastName LIKE '%n';
+
+-5.5
+SELECT Id,firstName,lastName FROM student WHERE mobile LIKE '%65%';
+
+-5.7
+SELECT Id,firstName,lastName,email FROM student WHERE email LIKE '%@Hotmail%' OR email LIKE '_E%' OR email LIKE '_e%';
+
+-6.2
+SELECT firstName,lastName,height FROM student WHERE height IN (170,177);
+
+-6.3
+SELECT Id,firstName,lastName,age FROM student WHERE height IN (170,173,177);
+
+-6.4
+SELECT Id,firstName,lastName,age FROM student WHERE height IN (19,22) AND firstName LIKE '%Y%' OR firstName LIKE '%y%';
+
+-7.1
+INSERT INTO student VALUES ('632110345','Pakorn','Sillapaprapha','20','846509027','pakorn_sillapaprapha@cmu.ac.th','183','Aj W');

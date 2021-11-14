@@ -1,0 +1,1 @@
+SELECT * FROM student WHERE height >=175 AND height <=180

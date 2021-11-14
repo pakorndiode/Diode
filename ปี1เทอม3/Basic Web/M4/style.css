@@ -1,0 +1,45 @@
+.img{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #594A41;
+}
+h2{
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #624E44;
+}
+h3{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #624E44;
+}
+.general_ed{
+    background-color: #735649;
+}
+.general_ed ul li{
+    background-color: #9E6B55 ;
+}
+.general_ed2{
+    background-color: #735649;
+}
+.general_ed2 ul li{
+    background-color: #9E6B55;
+}
+.general_ed ul .passed{
+    background-color: #594A41;
+}
+.general_ed ul .studying{
+    background-color: #B8775D;
+}
+.general_ed2 ul .studying{
+    background-color: #B8775D;
+}
+.general_ed2 ul .passed{
+    background-color: #594A41;
+}
